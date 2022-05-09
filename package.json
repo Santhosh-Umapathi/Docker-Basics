@@ -3,6 +3,8 @@
     "express": "*"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "docker build -t appymango/simpleweb .",
+    "boot": "docker run -p 5000:5000 appymango/simpleweb"
   }
 }

@@ -6,5 +6,6 @@ Basic Express Js Application with Docker basics
 
 ## Features
 
+- Docker CLI
 - Working Directory
 - Dependencies Caching
